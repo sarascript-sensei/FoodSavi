@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420877845963",
+    "project_id": "foodsaving-b841e",
+    "storage_bucket": "foodsaving-b841e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420877845963:android:012c5c6838a3f35388224e",
+        "android_client_info": {
+          "package_name": "com.example.foodsaving"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420877845963-v04v3sm4aqg05dhcdscfqgnj2sv2ff0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2efOzL3XrQpUSeUY9L3aSFB3DVItI9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420877845963-v04v3sm4aqg05dhcdscfqgnj2sv2ff0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

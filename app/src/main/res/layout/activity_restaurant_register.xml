@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#dde4dd"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp"
+    tools:context=".CustomerSignUp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:text="Регистрация для Ресторанов"
+    android:textAlignment="center"/>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/layoutNameCompany"
+            android:textColor="@color/colorPrimary"
+            android:hint="Имя компании"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/layoutPhone"
+            android:textColor="@color/colorPrimary"
+            android:hint="Телефон"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/layoutEmail"
+            android:textColor="@color/colorPrimary"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/layoutPassword"
+            android:textColor="@color/colorPrimary"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/adressCompany"
+            android:textColor="@color/colorPrimary"
+            android:hint="Адрес компании"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/signUpbut"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Зарегистрироваться"></Button>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:id="@+id/loginText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Уже есть аккаунт?"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
